@@ -64,8 +64,8 @@ public class Kmys extends Spider {
 
     private HashMap<String, String> getHeaders(String url) {
         HashMap<String, String> headers = new HashMap<>();
-        headers.put("versionNumber", "330");
-        headers.put("versionName", "3.3.0");
+        headers.put("versionNumber", "360");
+        headers.put("versionName", "3.6.0");
         headers.put("device", device);
         headers.put("appId", appId);
         headers.put("platformId", "7");
