@@ -193,7 +193,7 @@ public class IKan extends AppYsV2 {
                 headers.put("Accept-Encoding", " gzip, deflate");
                 headers.put("Connection", " Keep-Alive");
 
-                String parseUrl = "https://player.4kan.top/?url=" + str2;
+                String parseUrl = "http://tvcms.ikan6.vip/api.php/gctvapi.api/Index?url=" + str2;
                 Document doc = Jsoup.parse(OkHttpUtil.string(parseUrl, null));
                 Pattern pattern = Pattern.compile("(?<=getrandom\\S\").*?(?=\")");
                 Elements allScripts = doc.select("body script");
